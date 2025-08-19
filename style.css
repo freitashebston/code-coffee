@@ -141,3 +141,36 @@ main .hero div button:hover{
             font-weight: 300;
             font-size:18px ;
          }
+         main .gallery{
+            padding: 0 100px 75px;
+            background-color: #f5f5f5;
+         }
+
+             main .gallery h2 {
+            color: #40280a;
+            font-size: 36px;
+            font-weight: 600;
+
+         }
+
+         main .gallery span {
+            display: block;
+            width: 100px;
+            border: solid 5px #cc570b;
+         }
+
+         main .gallery .gallery-box {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            row-gap: 15px;
+            column-gap: 15px;
+         }
+         main .gallery .gallery-box a img {
+            width: 100%;
+            height: 100%;
+            border-radius: 10px ;
+         }
+
+         main .gallery .gallery-box a img:hover{
+            transform: scale(1.015);
+         }
